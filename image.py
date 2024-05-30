@@ -956,7 +956,7 @@ if __name__ == '__main__':
     image_processor = ImageProcessor(config)
 
 
-    path = 'path/to/your/EuRoC_MAV_dataset/MH_01_easy'
+    path = '/media/golarits/MyPassport/Sanya/EUROC/MH_01_easy'
     dataset = EuRoCDataset(path)
     dataset.set_starttime(offset=0.)
     
